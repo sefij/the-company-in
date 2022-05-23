@@ -12,6 +12,24 @@ code {
     monospace;
 }
 
-domain-row {
+.domain-row {
   margin-bottom: 10px;
+}
+
+.flex-display {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(160px, 1fr));
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 30px;
+  padding: 0 40px 0 40px;
+  gap: 50px;
+}
+
+.top-margin {
+  margin-top: 20px;
+}
+
+.twty-px-margin {
+  margin: 20px;
 }
